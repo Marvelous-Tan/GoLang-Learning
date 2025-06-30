@@ -13,7 +13,6 @@ func main() {
 	fmt.Println("type of a is", reflect.TypeOf(a))
     var abc = "abc"
 	fmt.Println("type of abc is", reflect.TypeOf(abc))
-    
 
 	e :=100
 	g := 3.14
