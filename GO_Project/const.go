@@ -26,5 +26,22 @@ func main() {
 
 
 	
-	
+	// 常量组
+	const (
+		a = iota
+		b
+		c
+		d = "ha"
+		e
+		f = 100
+		g
+	)
+	fmt.Println(a, b, c, d, e, f, g)
+
+
+	const (
+		a = iota
+		b
+		c
+	)
 }
